@@ -15,6 +15,7 @@ price.forEach((item)=>sum+=Number(item.textContent))
 	total.textContent='total';
     totalprice.textContent=sum;
 	lastRow.appendChild(total);
+	lastRow.id='ans'
 	lastRow.appendChild(totalprice);
 	table.appendChild(lastRow);
 	
